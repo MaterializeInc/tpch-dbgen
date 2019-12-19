@@ -89,10 +89,10 @@ CREATE TABLE IF NOT EXISTS lineitem (
 
 
 \copy customer FROM 'postgres_customer.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_region.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_nation.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_supplier.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_part.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_partsupp.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_orders.tbl' (DELIMITER('|'));
-\copy customer FROM 'postgres_lineitem.tbl' (DELIMITER('|'));
+\copy region FROM 'postgres_region.tbl' (DELIMITER('|'));
+\copy nation FROM 'postgres_nation.tbl' (DELIMITER('|'));
+\copy supplier FROM 'postgres_supplier.tbl' (DELIMITER('|'));
+\copy part FROM 'postgres_part.tbl' (DELIMITER('|'));
+\copy partsupp FROM 'postgres_partsupp.tbl' (DELIMITER('|'));
+\copy orders FROM 'postgres_orders.tbl' (DELIMITER('|'));
+\copy lineitem FROM 'postgres_lineitem.tbl' (DELIMITER('|'));
